@@ -1,0 +1,137 @@
+*{
+ margin: 0;
+padding: 0;
+}
+*::-webkit-scrollbar{
+  display: none;
+}
+
+.main{
+ width: 1920px;
+ position: relative;
+}
+
+/* トップ index */
+#hover-area,#area{
+position: absolute;
+top:  3068px;
+left: 403px;
+}
+#area:hover{
+   opacity: 0;
+ transition:0.3s;
+}
+#modelcourse,#hover-modelcourse{
+  position: absolute; 
+ top:  4057px;
+ left: 398px; 
+}
+#originalcourse,#hover-originalcourse{
+    position: absolute; 
+ top:  4057px;
+ left: 1230px; 
+}
+.course_active:hover {
+ opacity: 0;
+ transition:0.7s;
+} 
+
+
+/* コース詳細 course */
+#playbtn,#hover-playbtn{
+  position: absolute; 
+  top: 2271px;
+ left: 219px;
+}
+.play_active:hover{
+   opacity: 0;
+    transition:0.7s;
+}
+
+
+/*モデルコース modelcourse */
+#mantrip,#hover-mantrip{
+  position: absolute; 
+  top: 1047px;
+ left:744px;
+}
+.mantrip_active:hover{
+  opacity: 0;
+  transition:0.7s;
+}
+
+/* オリジナルコース originalcourse */
+#coursebtn,#hover-coursebtn{
+  position: absolute; 
+  top: 2756px;
+ left: 756px;
+}
+
+#coursebtn:hover{
+  opacity: 0;
+  transition:0.3s;
+}
+
+
+/*明洞 myeong-dong */
+#lookbtn,#hover-lookbtn{
+  position: absolute; 
+  top: 3183px;
+ left: 1315px;
+}
+.look_active:hover{
+  opacity: 0;
+  transition:0.7s;
+}
+#look2btn,#hover-look2btn{
+  position: absolute; 
+  top: 6064px;
+ left: 1490px;
+}
+#shootbtn,#hover-shootbtn{
+  position: absolute; 
+  top: 3774px;
+ left: 150px;
+}
+.shoot_active:hover{
+  opacity: 0;
+  transition:0.7s;
+}
+ ul{
+ list-style: none;
+ display: flex;
+ position: absolute;
+  gap: 25px;
+  top:  6366px;
+  left: 168px;
+ }
+.area_active:hover {
+ opacity: 0;
+   transition:0.3s;
+} 
+#creator,#hover-creatorbtn{
+  position: absolute; 
+  top: 852px;
+ left: 688px;
+}
+#creator:hover{
+   opacity: 0;
+   transition:0.3s;
+}
+
+
+
+/*特集 specialfeature */
+#hotelbtn,#hover-hotelbtn{
+  position: absolute; 
+  top: 2097px;
+ left: 348px;
+}
+#hotelbtn:hover{
+  opacity: 0;
+   transition:0.7s;
+}
+
+
+
+
